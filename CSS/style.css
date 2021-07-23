@@ -3,7 +3,10 @@ html,body{
     box-sizing: border-box;
     overflow-x: hidden;
 }
-
+/* -----GLOBAL CLASSES----- */
+a{
+    text-decoration: none;
+}
 /* ----Navigation---- */
 .nav{
     background: white;
@@ -11,4 +14,9 @@ html,body{
     height: 0rem;
     min-height: 10vh;
     overflow: hidden;
+}
+
+.nav .home a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
 }
