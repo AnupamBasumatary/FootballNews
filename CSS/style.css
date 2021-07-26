@@ -43,7 +43,7 @@ ul{
     background: white;
     padding: 0 2rem;
     height: 0rem;
-    min-height: 40vh;
+    min-height: 10vh;
     overflow: hidden;
 }
 
@@ -70,6 +70,52 @@ ul{
     font-family: var(--Alegraya);
 }
 
+.nav .nav-items .navlink:hover{
+    background-color: var(--text-gray);
+}
+
+.nav .nav-items .navlink:hover a{
+    color: var(--white);
+}
+
 .nav .social{
     padding: 1.4rem 0;
+}
+
+.nav .social i{
+    padding: 0 0.2rem;
+}
+
+.nav .social i:hover{
+    color: #a1c4cf;
+}
+
+.nav .toggle-collapse{
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+}
+
+.nav .toggle-collapse .toggle-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+
+.nav .toggle-collapse .toggle-icons i{
+    color: var(--text-gray);
+    font-size: 1.7rem;
+}
+
+/*-----viewport less than 750 px--------*/
+@media only screen and (max-width:750px){
+ .nav .nav-menu,.nav .nav-items{
+     flex-direction: column;
+ }
+
+ .nav .toggle-collapse{
+     display: initial;
+ }
 }
