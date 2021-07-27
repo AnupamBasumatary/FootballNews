@@ -45,6 +45,7 @@ ul{
     height: 0rem;
     min-height: 10vh;
     overflow: hidden;
+    transition: height 1s ease-in-out;
 }
 
 .nav .nav-menu{
@@ -102,6 +103,10 @@ ul{
     display: flex;
     justify-content: flex-end;
     padding: 1.7rem 0;
+}
+
+.collapse{
+    height : 30rem;
 }
 
 .nav .toggle-collapse .toggle-icons i{
