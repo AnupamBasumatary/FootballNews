@@ -37,7 +37,10 @@ ul{
     list-style-type: none;
 }
 
-
+h1{
+    font-family: var(--Vollkorn);
+    font-size: 2.5rem;
+}
 /* --------------------------------Navigation--------------------------- */
 .nav{
     background: white;
@@ -112,6 +115,31 @@ ul{
 .nav .toggle-collapse .toggle-icons i{
     color: var(--text-gray);
     font-size: 1.7rem;
+}
+
+/* --------------------------------Main Section--------------------------- */
+/* -----------Title--------------*/
+main .title{
+    background: url('../assets/Background.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .title .title-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--white);
+}
+
+main .title h1{
+    margin: 0.5rem;
+}
+
+main .title .prediction{
+    margin: 1.8rem;
+    background: #87ceeb;
 }
 
 /*-----viewport less than 750 px--------*/
