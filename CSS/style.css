@@ -134,12 +134,27 @@ main .title .title-background{
 }
 
 main .title h1{
-    margin: 0.5rem;
+    margin-top: 2.5rem;
 }
 
 main .title .prediction{
-    margin: 1.8rem;
+    margin-top: 12rem;
     background: #87ceeb;
+}
+
+button.prediction{
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: var(--Alegraya);
+}
+
+main .title .prediction:hover{
+    background: transparent;
+    color: var(--white);
+    border: 2px solid var(--white);
 }
 
 /*-----viewport less than 750 px--------*/
