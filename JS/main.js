@@ -7,4 +7,7 @@ $(document).ready(function(){
         $nav.toggleClass('collapse');
     })
 
+    //owl-carousel
+    $('.owl-container').owlCarousel();
+
 });
