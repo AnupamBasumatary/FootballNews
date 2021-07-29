@@ -130,6 +130,7 @@ main .title{
     height: 100vh;
     display: flex;
     justify-content: center;
+    border-radius: 0.2rem;
 }
 
 main .title .title-background{
@@ -164,7 +165,7 @@ main .title .btn:hover{
 
 /*-------Carousel--------*/
 main .blog{
-    background: url('../assets/wallpapertip_white-background-wallpaper-hd_405611.jpg');
+    background: url('../assets/31217011-abstract-watercolor-aquarelle-hand-drawn-dark-green-drop-splatter-stain-art-paint-on-white-backgroun.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -189,6 +190,7 @@ main .blog-post .content{
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
 }
+
 
 /*-----viewport less than 750 px--------*/
 @media only screen and (max-width:750px){
