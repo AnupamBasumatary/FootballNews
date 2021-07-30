@@ -46,6 +46,10 @@ h3{
     font-family: var(--Alegraya);
     font-size: 1.6rem;
 }
+
+span{
+    font-family: var(--Alegraya);
+}
 /* --------------------------------Navigation--------------------------- */
 .nav{
     background: white;
@@ -178,7 +182,7 @@ main .blog .blog-post{
 }
 
 main .content .blog-title{
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 main .blog-post .content{
@@ -189,6 +193,17 @@ main .blog-post .content{
     margin: 3rem 2rem;
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
+    background: transparent;
+}
+
+main .content .btn-blog{
+    padding: .7rem 2rem;
+    background: var(--Blue-morpheus);
+    margin: .5rem;
+}
+
+main .content span{
+    display: block;
 }
 
 
