@@ -9,5 +9,5 @@ $(document).ready(function(){
 
     //owl-carousel
     $('.owl-container').owlCarousel();
-
+    
 });
